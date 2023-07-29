@@ -17,7 +17,7 @@ function App() {
   }, [])
 
   return (
-    <div>
+    <>
       <Header as='h2' icon='users' content='Reactivities'/>
         <List>
           {activities.map((activity: any) => (
@@ -26,7 +26,7 @@ function App() {
             </List.Item>
           ))}
         </List>
-    </div>
+    </>
   );
 }
 
